@@ -3,40 +3,90 @@
 body {
 background-color: #eee;
 font-family: Sans Pro;
+max-width: 40%;
+margin: auto;
 }
 
 .newspaper-container {
     width: 700px;
     border-radius: 1%;
     background-color: white;
-    box-shadow: inset;
+    box-shadow: 10px 10px 10px #ddd;
     padding: 5%;
-    margin: auto;
 }
 
 .date {
-    font-family : Source Sans Pro
+    font-family : Source Sans Pro;
+    
  }
 
 h1 {
     text-align: center;
     font-family: Abril Fatface;
     font-weight: bolder;
+    font-size: 50px;
+}
+
+nav ul{
+    align-items: center;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+ 
 }
 
 nav a {
     text-decoration: none;
     font-family: Sans Pro;
     list-style: none;
-    color: black;
+    color:  #777;
+    font-size: 12px;
+    padding-left: 4%;
+    padding-right: 4%;
+    max-width: 100%;
 }
 
 nav ul li {
     display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+
+
+}
+
+h5 {
+    color: red;
+}
+
+main img {
+    width: 100%;
+}
+main p {
+    text-align: justify;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5%;
 }
 
 h2 {
     font-family: Roboto Slab;
 }
+
+.more-articles-1 p, .more-articles-2 p {
+    text-align: justify;
+    width: 300px;
+}
+
+
+.more-articles-1 img, .more-articles-2 img {
+   width: 300px;
+}
+
+div {
+    display: inline-block;
+    padding-right: 3.25%;
+    padding-left: 3.25%;
+}
+
+
+
 
 
